@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "PXP",
+        "PPP"
+    ],
+    "key": {
+        "P": "#minecraft:planks",
+        "X": "minecraft:tripwire_hook"
+    },
+    "result": {
+        "id": "minecraft:trapped_chest"
+    }
+}

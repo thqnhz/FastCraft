@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iFi",
+        "iii"
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "F": "minecraft:chest"
+    },
+    "result": {
+        "id": "minecraft:chest_minecart"
+    }
+}
