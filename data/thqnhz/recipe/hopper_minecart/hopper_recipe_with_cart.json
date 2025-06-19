@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iMi",
+        "iCi",
+        " i "
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "M": "minecraft:minecart",
+        "C": "minecraft:chest"
+    },
+    "result": {
+        "id": "minecraft:hopper_minecart"
+    }
+}

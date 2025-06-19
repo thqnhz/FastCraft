@@ -1,12 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "LLL",
-        "L L",
-        "LLL"
+        "BBB",
+        "B B",
+        "BBB"
     ],
     "key": {
-        "L": "#minecraft:bamboo_blocks"
+        "B": "#minecraft:bamboo_blocks"
     },
     "result": {
         "id": "minecraft:chest",

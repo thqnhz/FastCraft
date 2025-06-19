@@ -1,12 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "CCC",
-        "CMC",
-        "CCC"
+        "PPP",
+        "PMP",
+        "PPP"
     ],
     "key": {
-        "C": "#minecraft:planks",
+        "P": "#minecraft:planks",
         "M": "minecraft:minecart"
     },
     "result": {
