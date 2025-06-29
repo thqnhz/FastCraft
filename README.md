@@ -31,7 +31,7 @@ Download the pack in the `Releases` tab (on Github) or in the `Versions` tab (on
 > This recipe appear also appear a lot in some old modpacks, I think this is one of the best thing to be able to fast craft
 ![hopper](./example/hopper.png)
 
-More in the `example` folder on Github or `Galery` tab on Modrinth
+More in the `example` folder on Github or `Gallery` tab on Modrinth
 
 ---
 
