@@ -1,0 +1,2 @@
+- Changes:
+  - Minecraft 1.21.9-10 support
