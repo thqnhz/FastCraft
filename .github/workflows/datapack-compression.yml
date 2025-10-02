@@ -1,0 +1,40 @@
+name: Compress on version tag
+
+on:
+  push:
+    tags:
+      - "*-v*"   # 1.X.Y-vA.B.C
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set filename
+        id: vars
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY##*/}"
+          TAG_NAME="${GITHUB_REF_NAME}"   # e.g. 1.21.9-v1.2.3
+          MC_VERSION="${TAG_NAME%%-*}"    # before first dash → 1.21.9
+          RELEASE_VERSION="${TAG_NAME#*-}" # after first dash → v1.2.3
+          FILENAME="${REPO_NAME}-${RELEASE_VERSION}-mc${MC_VERSION}.zip"
+          echo "FILENAME=$FILENAME" >> $GITHUB_ENV
+
+      - name: Create ZIP archive
+        run: |
+          zip -r "$FILENAME" . \
+          -x ".git/*" ".github/*" "example/*"
+
+      - name: Upload Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "${{ env.FILENAME }}"
+          body_path: NEWCHANGES.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
