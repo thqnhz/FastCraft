@@ -28,3 +28,11 @@
 
 - Changes:
   - Minecraft 1.21.7-8 support
+
+## v1.3.0-mc1.21.10
+
+- Changes:
+  - Minecraft 1.21.9-10 support
+  - Renamed chain to iron_chain
+- Added:
+  - Copper chain recipe
