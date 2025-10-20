@@ -22,8 +22,8 @@ jobs:
           REPO_NAME="${GITHUB_REPOSITORY##*/}"
           TAG_NAME="${GITHUB_REF_NAME}"
           MC_VERSION="${TAG_NAME%%-*}"
-          RELEASE_VERSION="${TAG_NAME#*-}"
-          PACKNAME="${REPO_NAME}-${RELEASE_VERSION}-mc${MC_VERSION}"
+          RELEASE_VERSION="${TAG_NAME#*-v}"
+          PACKNAME="${REPO_NAME}-v${RELEASE_VERSION}-mc${MC_VERSION}"
           FILENAME="${PACKNAME}.zip"
           echo "MC_VERSION=$MC_VERSION" >> $GITHUB_ENV
           echo "PACKNAME=$PACKNAME" >> $GITHUB_ENV
