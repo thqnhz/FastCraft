@@ -1,6 +1,7 @@
-- Changes:
-  - Minecraft 1.21.9-10 support
-  - Renamed chain to iron_chain
+### Added
 
-- Added:
-  - Added copper_chain
+- Minecraft 1.21.11 (Mounts of Mayhem drop) support
+
+### Changed
+
+- Technical: Minecraft version support bump will be put in Added section, to follow semver
