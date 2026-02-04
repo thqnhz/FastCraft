@@ -1,7 +1,7 @@
 {
     "pack": {
-        "description": "Save your time by crafting shortcuts",
-        "min_format": 94,
-        "max_format": 94
+        "description": "§oSave your time by providing crafting shortcuts.\n\n§r§bMade by §c§lThqnhZ",
+        "min_format": 98,
+        "max_format": 98
     }
 }
