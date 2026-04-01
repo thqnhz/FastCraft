@@ -10,7 +10,6 @@
         "M": "minecraft:minecart",
         "C": "minecraft:chest"
     },
-    "result": {
-        "id": "minecraft:hopper_minecart"
-    }
+    "result": "minecraft:hopper_minecart"
 }
+

@@ -1,7 +1,6 @@
+## v2.0.0-mv26.1 - 01/04/2026
+
 ### Added
 
-- Minecraft 1.21.11 (Mounts of Mayhem drop) support
+- Minecraft 26.1 (Tiny Takeover drop) support
 
-### Changed
-
-- Technical: Minecraft version support bump will be put in Added section, to follow semver

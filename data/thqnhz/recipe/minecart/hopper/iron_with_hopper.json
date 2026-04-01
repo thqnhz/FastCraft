@@ -8,7 +8,6 @@
         "i": "minecraft:iron_ingot",
         "H": "minecraft:hopper"
     },
-    "result": {
-        "id": "minecraft:hopper_minecart"
-    }
+    "result": "minecraft:hopper_minecart"
 }
+

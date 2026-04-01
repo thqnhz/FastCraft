@@ -9,7 +9,6 @@
         "P": "#minecraft:planks",
         "X": "minecraft:tripwire_hook"
     },
-    "result": {
-        "id": "minecraft:trapped_chest"
-    }
+    "result": "minecraft:trapped_chest"
 }
+

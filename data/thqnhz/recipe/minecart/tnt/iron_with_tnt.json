@@ -8,7 +8,6 @@
         "i": "minecraft:iron_ingot",
         "T": "minecraft:tnt"
     },
-    "result": {
-        "id": "minecraft:tnt_minecart"
-    }
+    "result": "minecraft:tnt_minecart"
 }
+

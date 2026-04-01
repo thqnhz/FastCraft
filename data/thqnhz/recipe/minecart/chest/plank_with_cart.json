@@ -9,7 +9,6 @@
         "P": "#minecraft:planks",
         "M": "minecraft:minecart"
     },
-    "result": {
-        "id": "minecraft:chest_minecart"
-    }
+    "result": "minecraft:chest_minecart"
 }
+

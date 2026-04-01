@@ -9,7 +9,6 @@
         "i": "minecraft:iron_ingot",
         "L": "#minecraft:logs"
     },
-    "result": {
-        "id": "minecraft:hopper"
-    }
+    "result": "minecraft:hopper"
 }
+
