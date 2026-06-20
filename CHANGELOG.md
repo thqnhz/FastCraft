@@ -1,6 +1,12 @@
 # FastCraft Datapack Changelog
 
-## v2.0.0-mv26.1 - 01/04/2026
+## v2.1.0-mc26.2 - 20/06/2026
+
+### Added
+
+- Minecraft 26.2 (Chaos Cubed drop) support
+
+## v2.0.0-mc26.1 - 01/04/2026
 
 ### Added
 
