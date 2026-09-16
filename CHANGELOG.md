@@ -1,5 +1,17 @@
 # FastCraft Datapack Changelog
 
+## v3.0.0-mc26.3 - [Unreleased]
+
+### Added
+
+- Minecraft 26.3 (Wilderness Bound drop) support
+
+### Removed
+
+- Bread recipe (in favor of straw beds)
+
+---
+
 ## v2.1.0-mc26.2 - 20/06/2026
 
 ### Added
@@ -75,4 +87,3 @@
   - using Logs
   - using Bamboo
 - Trapped Chest
-
